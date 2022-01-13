@@ -24,7 +24,7 @@
     "glob": "^7.1.6",
     "jest-docblock": "^24.3.0",
     "nullthrows": "^1.1.1",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "yargs": "^15.3.1"
   },
   "repository": {

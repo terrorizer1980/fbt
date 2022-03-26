@@ -19,7 +19,9 @@
     "test-translate-fbts-into-output-dir": "babel-node node_modules/.bin/fbt-translate --translations translations/*.json --jenkins --output-dir src/translatedFbts",
     "test": "cd .. && yarn jest demo-app",
     "translate-fbts-single-file": "babel-node node_modules/.bin/fbt-translate --jenkins --stdin < translation_input.json > src/translatedFbts.json",
-    "translate-fbts": "babel-node node_modules/.bin/fbt-translate --translations translations/*.json --jenkins > src/translatedFbts.json"
+    "translate-fbts": "babel-node node_modules/.bin/fbt-translate --translations translations/*.json --jenkins > src/translatedFbts.json",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
@@ -73,6 +75,8 @@
     "fbt": "x.x.x",
     "optimist": "^0.6.1",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
-  }
+    "react-dom": "^16.6.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

@@ -25,7 +25,8 @@
     "jest-docblock": "^24.3.0",
     "nullthrows": "^1.1.1",
     "shelljs": "^0.8.4",
-    "yargs": "^15.3.1"
+    "yargs": "^15.3.1",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,9 @@
     "directory": "packages/babel-plugin-fbt"
   },
   "scripts": {
-    "publish_to_npm_latest": "yarn publish . && git push --tags && git push"
-  }
+    "publish_to_npm_latest": "yarn publish . && git push --tags && git push",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }

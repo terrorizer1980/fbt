@@ -55,7 +55,8 @@
     "@babel/plugin-transform-runtime": "^7.2.0",
     "babel-plugin-minify-replace": "^0.5.0",
     "fbjs": "^1.0.0",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.4",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "babel-plugin-fbt-runtime:test": "yarn jest packages/babel-plugin-fbt-runtime",
@@ -69,7 +70,9 @@
     "flow:watch": "yarn run watch 'yarn flow stop && yarn flow check --show-all-errors 2>&1 | tee .flow-results' . --ignoreDotFiles",
     "postinstall": "yarn build-runtime",
     "test:watch": "yarn jest --watch",
-    "test": "yarn jest"
+    "test": "yarn jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "resolutions": {
     "**/@babel/core": "^7.2.0",
@@ -86,5 +89,6 @@
   ],
   "engines": {
     "node": ">= 10.4.0"
-  }
+  },
+  "snyk": true
 }

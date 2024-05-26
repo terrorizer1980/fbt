@@ -21,7 +21,7 @@
     "fb-babel-plugin-utils": "^0.10.0",
     "fbjs-scripts": "^1.2.0",
     "fbjs": "^1.0.0",
-    "glob": "^7.1.6",
+    "glob": "^9.0.0",
     "jest-docblock": "^24.3.0",
     "nullthrows": "^1.1.1",
     "shelljs": "^0.8.4",

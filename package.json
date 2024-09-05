@@ -52,9 +52,9 @@
     "yargs": "^12.0.5"
   },
   "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.22.6",
     "babel-plugin-minify-replace": "^0.5.0",
-    "fbjs": "^1.0.0",
+    "fbjs": "^3.0.1",
     "shelljs": "^0.8.4"
   },
   "scripts": {

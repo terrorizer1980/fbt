@@ -9,8 +9,8 @@
     "fb-babel-plugin-utils": "^0.10.0"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
-    "fbjs": "^1.0.0"
+    "@babel/core": "^7.23.2",
+    "fbjs": "^3.0.1"
   },
   "peerDependencies": {
     "babel-plugin-fbt": "^0.14.2"

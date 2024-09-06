@@ -12,20 +12,20 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.23.2",
     "@babel/generator": "^7.0.0",
     "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
     "@babel/plugin-transform-flow-strip-types": "^7.2.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
-    "@babel/types": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.5",
+    "@babel/types": "^7.13.16",
     "fb-babel-plugin-utils": "^0.10.0",
     "fbjs-scripts": "^1.2.0",
-    "fbjs": "^1.0.0",
+    "fbjs": "^3.0.1",
     "glob": "^7.1.6",
     "jest-docblock": "^24.3.0",
     "nullthrows": "^1.1.1",
     "shelljs": "^0.8.4",
-    "yargs": "^15.3.1"
+    "yargs": "^16.1.1"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@
   "description": "Common Babel 7 utils for FB",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.23.2",
     "@babel/generator": "^7.0.0",
     "@babel/parser": "^7.7.4",
     "@babel/plugin-syntax-class-properties": "^7.0.0",

@@ -9,7 +9,7 @@
     "fb-babel-plugin-utils": "^0.10.0"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.26.10",
     "fbjs": "^1.0.0"
   },
   "peerDependencies": {
